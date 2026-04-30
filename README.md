@@ -1,6 +1,6 @@
-# ClaudeiLearn Learn
+# Claudify Learn
 
-A modern learning platform built with TanStack Start, TanStack Router, and Tailwind CSS.
+A Claude Code simulation game to learn all Claude Code commands through interactive, story-driven terminal scenarios.
 
 ## Prerequisites
 
