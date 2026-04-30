@@ -31,7 +31,11 @@ export const Sidebar = ({
 			<div className="p-6 border-b border-white/5 bg-linear-to-b from-[#1a1a1a] to-[#111]">
 				<a href="/" className="flex items-center gap-4 mb-4">
 					<div className="w-12 h-12 bg-terminal-accent/10 border border-terminal-accent/20 rounded-lg flex items-center justify-center">
-						<Coffee className="text-terminal-accent" size={24} />
+						<img
+							src="/android-chrome-192x192.png"
+							alt=""
+							className="w-12 h-12"
+						/>
 					</div>
 					<div>
 						<h3 className="text-sm font-bold text-white">Junior Developer</h3>

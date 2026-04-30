@@ -59,7 +59,7 @@ export const LEVELS: Level[] = [
 			},
 		],
 		output: [
-			"Claude Code Terminal v1.0.42-stable",
+			"Claude Code Terminal v2.1.123-stable",
 			"Core Loaded: Anthropic Reasoning Engine",
 			"",
 			"Welcome, Operator. System ready.",
