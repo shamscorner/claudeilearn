@@ -3,7 +3,7 @@ import type { GameAction, GameState, Level } from "../../../types/game";
 import { initialGameState } from "../../../types/game";
 import { levels } from "../-data/levels";
 
-const STORAGE_KEY = "claudify-learn-game-state";
+const STORAGE_KEY = "claudeilearn-game-state";
 
 function loadInitialState(): GameState {
 	if (typeof window === "undefined") return initialGameState;

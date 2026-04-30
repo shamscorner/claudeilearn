@@ -242,7 +242,7 @@ export const levels: Level[] = [
 			},
 		],
 		output:
-			"[ADDING WORKING DIRECTORY]\n> Target path: ../secrets\n> Resolving relative path................. OK\n> Checking permissions.................... OK\n> Verifying path exists.................\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n[+] Directory added to allowed paths:\n    > /Users/operator/projects/claudify-learn/../secrets\n\n[ALLOWED DIRECTORIES]\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n  1. /Users/operator/projects/claudify-learn (default)\n  2. /Users/operator/secrets (NEW)\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n> You can now access files in /Users/operator/secrets",
+			"[ADDING WORKING DIRECTORY]\n> Target path: ../secrets\n> Resolving relative path................. OK\n> Checking permissions.................... OK\n> Verifying path exists.................\n\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n[+] Directory added to allowed paths:\n    > /Users/operator/projects/claudeilearn/../secrets\n\n[ALLOWED DIRECTORIES]\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n  1. /Users/operator/projects/claudeilearn (default)\n  2. /Users/operator/secrets (NEW)\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n> You can now access files in /Users/operator/secrets",
 		learningHook: "Expand your horizons.",
 		hint: "Use /add-dir to add directories",
 	},

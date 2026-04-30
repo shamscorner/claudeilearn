@@ -15,7 +15,7 @@ export const Route = createRootRoute({
 				content: "width=device-width, initial-scale=1",
 			},
 			{
-				title: "ClaudiLearn - Terminal Zero → SaaS One",
+				title: "claudeilearn - Terminal Zero → SaaS One",
 			},
 			{
 				name: "description",
@@ -24,7 +24,7 @@ export const Route = createRootRoute({
 			},
 			{
 				property: "og:title",
-				content: "ClaudiLearn - Terminal Zero → SaaS One",
+				content: "claudeilearn - Terminal Zero → SaaS One",
 			},
 			{
 				property: "og:description",
@@ -45,7 +45,7 @@ export const Route = createRootRoute({
 			},
 			{
 				name: "twitter:title",
-				content: "ClaudiLearn - Terminal Zero → SaaS One",
+				content: "claudeilearn - Terminal Zero → SaaS One",
 			},
 			{
 				name: "twitter:description",
@@ -60,7 +60,7 @@ export const Route = createRootRoute({
 			},
 			{
 				rel: "canonical",
-				href: "https://claudilearn.example.com",
+				href: "https://claudeilearn.shamscorner.com",
 			},
 		],
 	}),
