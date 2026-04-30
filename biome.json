@@ -13,8 +13,8 @@
 			"**/index.html",
 			"**/vite.config.ts",
 			"!**/src/routeTree.gen.ts",
-			"!**/src/styles.css",
-			"!**/src/routes/game-2/styles/*"
+			"!**/styles.css",
+			"!**/styles.css"
 		]
 	},
 	"formatter": {
@@ -30,7 +30,8 @@
 				"noArrayIndexKey": "off"
 			},
 			"a11y": {
-				"useButtonType": "off"
+				"useButtonType": "off",
+				"noAutofocus": "off"
 			},
 			"correctness": {
 				"useExhaustiveDependencies": "off"
