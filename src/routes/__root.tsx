@@ -15,13 +15,52 @@ export const Route = createRootRoute({
 				content: "width=device-width, initial-scale=1",
 			},
 			{
-				title: "TanStack Start Starter",
+				title: "ClaudiLearn - Terminal Zero → SaaS One",
+			},
+			{
+				name: "description",
+				content:
+					"An interactive, story-driven terminal simulation for mastering Claude Code commands in a real-world SaaS startup scenario.",
+			},
+			{
+				property: "og:title",
+				content: "ClaudiLearn - Terminal Zero → SaaS One",
+			},
+			{
+				property: "og:description",
+				content:
+					"An interactive, story-driven terminal simulation for mastering Claude Code commands in a real-world SaaS startup scenario.",
+			},
+			{
+				property: "og:type",
+				content: "website",
+			},
+			{
+				name: "theme-color",
+				content: "#1a1a2e",
+			},
+			{
+				name: "twitter:card",
+				content: "summary_large_image",
+			},
+			{
+				name: "twitter:title",
+				content: "ClaudiLearn - Terminal Zero → SaaS One",
+			},
+			{
+				name: "twitter:description",
+				content:
+					"An interactive, story-driven terminal simulation for mastering Claude Code commands in a real-world SaaS startup scenario.",
 			},
 		],
 		links: [
 			{
 				rel: "stylesheet",
 				href: appCss,
+			},
+			{
+				rel: "canonical",
+				href: "https://claudilearn.example.com",
 			},
 		],
 	}),
