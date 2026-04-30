@@ -37,7 +37,7 @@ function Landing() {
 							</span>
 						</span>
 						<a
-							href="/game"
+							href="/game-2"
 							className="group relative px-8 py-5 text-xl font-bold text-[#DE7356] border-2 border-[#DE7356] rounded overflow-hidden transition-all duration-300 hover:bg-[#DE7356] hover:text-black"
 						>
 							<span className="absolute inset-0 bg-[#DE7356]/10 animate-pulse opacity-0 group-hover:opacity-100" />
