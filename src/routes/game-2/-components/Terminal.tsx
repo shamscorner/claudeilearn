@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import { useGame } from "../-hooks/useGame";
 import { Dialogue } from "./Dialogue";
@@ -75,7 +76,12 @@ export function Terminal() {
 		<div className="flex h-screen bg-[#0d0d0d] text-gray-300 font-mono overflow-hidden">
 			<div className="flex-1 flex flex-col">
 				<div className="h-10 bg-[#1a1a1a] border-b border-[#333] flex items-center justify-between px-4">
-					<span className="text-xs text-gray-500">Claude Code Terminal</span>
+					<Link
+						to="/"
+						className="text-xs text-gray-500 hover:text-[#DE7356] transition-colors"
+					>
+						Claude Code Terminal
+					</Link>
 					<span className="text-xs text-[#DE7356] font-bold">
 						{currentLevel?.phase} - {state.currentLevel}/87
 					</span>

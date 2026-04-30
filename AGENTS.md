@@ -14,7 +14,6 @@ bun --bun run check      # biome check (lint + format)
 ## Stack
 
 - **Framework:** TanStack Start + TanStack Router (file-based routing in `src/routes/`)
-- **Runtime:** Bun (Cloudflare Pages via Wrangler)
 - **Lint/Format:** Biome
 - **Styling:** Tailwind CSS
 

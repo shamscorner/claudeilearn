@@ -29,7 +29,7 @@ export const Sidebar = ({
 		<aside className="w-80 h-full bg-[#111] border-r border-terminal-border/10 flex flex-col">
 			{/* Header Profile */}
 			<div className="p-6 border-b border-white/5 bg-linear-to-b from-[#1a1a1a] to-[#111]">
-				<div className="flex items-center gap-4 mb-4">
+				<a href="/" className="flex items-center gap-4 mb-4">
 					<div className="w-12 h-12 bg-terminal-accent/10 border border-terminal-accent/20 rounded-lg flex items-center justify-center">
 						<Coffee className="text-terminal-accent" size={24} />
 					</div>
@@ -39,7 +39,7 @@ export const Sidebar = ({
 							Dhaka Logi-Startup #42
 						</p>
 					</div>
-				</div>
+				</a>
 
 				{/* Progress Tracker */}
 				<div className="space-y-2">

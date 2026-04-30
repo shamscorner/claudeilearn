@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import { Info, Shield, Terminal as TerminalIcon } from "lucide-react";
 import { motion } from "motion/react";
 import type React from "react";
@@ -57,15 +58,18 @@ export const Terminal = ({
 			{/* Terminal Header */}
 			<div className="flex items-center justify-between px-4 py-2 bg-[#1a1a1a] border-b border-terminal-border/10">
 				<div className="flex items-center gap-2">
-					<TerminalIcon
-						size={14}
-						className={phaseColor || "text-terminal-accent"}
-					/>
-					<span
-						className={`text-xs font-bold uppercase tracking-widest ${phaseColor || "text-terminal-accent"}`}
+					<Link to="/">
+						<TerminalIcon
+							size={14}
+							className={phaseColor || "text-terminal-accent"}
+						/>
+					</Link>
+					<Link
+						to="/"
+						className={`text-xs font-bold uppercase tracking-widest ${phaseColor || "text-terminal-accent"} hover:opacity-80 transition-opacity`}
 					>
 						CLAUDE CODE V2.1.123
-					</span>
+					</Link>
 				</div>
 				<div className="flex items-center gap-4">
 					<div className="flex items-center gap-1.5">

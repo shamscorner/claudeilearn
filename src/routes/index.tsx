@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Footer } from "#/components/footer";
 
 export const Route = createFileRoute("/")({ component: Landing });
 
@@ -21,7 +22,7 @@ function Landing() {
 							_/root/terminal_
 						</div>
 						<h1 className="text-7xl font-bold text-white tracking-tight">
-							Claude<span className="text-[#DE7356]">Learn</span>
+							Claude<span className="text-[#DE7356]">iLearn</span>
 						</h1>
 						<div className="mt-4 h-px w-48 bg-gradient-to-r from-transparent via-[#DE7356] to-transparent mx-auto" />
 						<p className="mt-6 text-gray-400 text-lg font-mono">
@@ -30,12 +31,16 @@ function Landing() {
 					</div>
 
 					<div className="flex flex-col gap-4 w-80">
-						<span className="group relative px-8 py-5 text-xl font-bold text-gray-500 border-2 border-gray-800 rounded overflow-hidden cursor-not-allowed opacity-50">
-							<span className="relative z-10 flex items-center justify-between">
-								<span className="font-mono">▲ COMING SOON</span>
-								<span className="opacity-50 text-sm">v2.0</span>
+						<a
+							href="/game-1"
+							className="group relative px-8 py-5 text-xl font-bold text-[#DE7356] border-2 border-[#DE7356] rounded overflow-hidden transition-all duration-300 hover:bg-[#DE7356] hover:text-black"
+						>
+							<span className="absolute inset-0 bg-[#DE7356]/10 animate-pulse opacity-0 group-hover:opacity-100" />
+							<span className="relative z-10 flex items-center justify-between font-mono">
+								<span>▶ PLAY NOW</span>
+								<span className="text-sm">v2.0</span>
 							</span>
-						</span>
+						</a>
 						<a
 							href="/game-2"
 							className="group relative px-8 py-5 text-xl font-bold text-[#DE7356] border-2 border-[#DE7356] rounded overflow-hidden transition-all duration-300 hover:bg-[#DE7356] hover:text-black"
@@ -58,6 +63,8 @@ function Landing() {
 			<div className="absolute bottom-4 left-4 font-mono text-xs text-gray-700">
 				SYSTEM: ONLINE | MEM: 847MB | UPTIME: 14h 23m
 			</div>
+
+			<Footer />
 		</div>
 	);
 }
