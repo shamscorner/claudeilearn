@@ -68,16 +68,16 @@ export const Terminal = ({
 						to="/"
 						className={`text-xs font-bold uppercase tracking-widest ${phaseColor || "text-terminal-accent"} hover:opacity-80 transition-opacity`}
 					>
-						CLAUDE CODE V2.1.123
+						V2.1.123
 					</Link>
 				</div>
-				<div className="flex items-center gap-4">
+				<div className="flex justify-between flex-1 items-center gap-4">
 					<div className="flex items-center gap-1.5">
 						<div
 							className={`w-1.5 h-1.5 rounded-full ${isSuccess ? "bg-terminal-accent" : "bg-terminal-accent/50"} animate-pulse`}
 						/>
 						<span className="text-[10px] text-terminal-dim uppercase font-semibold">
-							{isSuccess ? "Task Complete" : "Live System"}
+							{isSuccess ? "Complete" : "Live"}
 						</span>
 					</div>
 					<span className="text-[10px] text-terminal-dim font-mono">
@@ -88,7 +88,7 @@ export const Terminal = ({
 
 			{/* Context info bar */}
 			{commandInfo && (
-				<div className="bg-terminal-accent/5 border-b border-terminal-border/5 px-4 py-3 flex items-start gap-3">
+				<div className="bg-terminal-accent/5 border-b border-terminal-border/5 px-4 py-2 md:py-3 flex items-start gap-3">
 					<div className="mt-0.5">
 						<Info size={14} className={phaseColor || "text-terminal-accent"} />
 					</div>
@@ -96,14 +96,14 @@ export const Terminal = ({
 						<p
 							className={`text-[10px] font-bold uppercase tracking-widest mb-1 ${phaseColor || "text-terminal-accent"}`}
 						>
-							Tactical Mission: {currentLevelTitle}
+							{currentLevelTitle}
 						</p>
-						<p className="text-xs text-terminal-dim leading-relaxed mb-2 font-medium">
+						<p className="text-[10px] md:text-xs text-terminal-dim leading-relaxed mb-2 font-medium">
 							{commandInfo.description}
 						</p>
 						<div className="flex items-center gap-2">
 							<span className="text-[10px] text-terminal-dim font-bold uppercase tracking-tighter opacity-50">
-								Usage Pattern:
+								Pattern:
 							</span>
 							<code
 								className={`text-[10px] bg-white/5 px-2 py-0.5 rounded border border-white/5 ${phaseColor || "text-terminal-accent"}`}

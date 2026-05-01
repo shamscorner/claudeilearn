@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 
 export function Notfound() {
 	return (
-		<div className="min-h-screen bg-[#0a0a0a] relative overflow-hidden">
+		<div className="min-h-dvh bg-[#0a0a0a] relative overflow-hidden">
 			<div className="absolute inset-0 opacity-20">
 				<div className="absolute top-20 left-10 w-2 h-2 bg-[#DE7356] rounded-full animate-pulse" />
 				<div className="absolute top-40 right-20 w-1 h-1 bg-[#DE7356] rounded-full animate-pulse" />
@@ -12,7 +12,7 @@ export function Notfound() {
 
 			<div className="absolute inset-0 bg-[linear-gradient(transparent_50%,_rgba(222,115,86,0.03)_50%)] bg-[length:100%_4px]" />
 
-			<div className="min-h-screen flex items-center justify-center p-8 relative z-10">
+			<div className="min-h-dvh flex items-center justify-center p-8 relative z-10">
 				<div className="flex flex-col items-center gap-8">
 					<div className="text-center">
 						<div className="mb-4 text-[#DE7356] text-sm font-mono tracking-[0.3em]">

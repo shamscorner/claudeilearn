@@ -31,7 +31,7 @@ function RouteComponent() {
 	const progress = (currentLevelIndex / totalLevels) * 100;
 
 	return (
-		<div className="flex h-screen w-full bg-[#0d0d0d] overflow-hidden text-terminal-text selection:bg-terminal-accent/30 selection:text-white">
+		<div className="flex h-dvh w-full bg-[#0d0d0d] overflow-hidden text-terminal-text selection:bg-terminal-accent/30 selection:text-white">
 			{/* Background Ambience */}
 			<div className="fixed inset-0 opacity-[0.03] pointer-events-none">
 				<div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]" />
@@ -47,8 +47,8 @@ function RouteComponent() {
 				/>
 			</div>
 
-			<main className="flex-1 flex flex-col p-6 min-h-0 relative">
-				<div className="flex items-center justify-between md:hidden mb-4">
+			<main className="flex-1 flex flex-col px-2 pb-2 sm:px-6 sm:py-6 min-h-0 relative">
+				<div className="flex items-center justify-between md:hidden md:mb-4">
 					<Link
 						to="/"
 						className="text-xs text-terminal-accent font-bold uppercase tracking-widest"

@@ -75,7 +75,7 @@ export function Terminal() {
 	};
 
 	return (
-		<div className="flex h-screen bg-[#0d0d0d] text-gray-300 font-mono overflow-hidden">
+		<div className="flex h-dvh bg-[#0d0d0d] text-gray-300 font-mono overflow-hidden">
 			<div className="flex-1 flex flex-col">
 				<div className="h-10 bg-[#1a1a1a] border-b border-[#333] flex items-center justify-between px-4">
 					<div className="flex items-center gap-2">
